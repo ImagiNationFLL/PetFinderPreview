@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3099051DE3AF6C00A416E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3099041DE3AF6C00A416E7 /* AppDelegate.swift */; };
+		CF3099071DE3AF6C00A416E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3099061DE3AF6C00A416E7 /* FirstViewController.swift */; };
+		CF3099091DE3AF6C00A416E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3099081DE3AF6C00A416E7 /* SecondViewController.swift */; };
+		CF30990C1DE3AF6D00A416E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF30990A1DE3AF6C00A416E7 /* Main.storyboard */; };
+		CF30990E1DE3AF6D00A416E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF30990D1DE3AF6D00A416E7 /* Assets.xcassets */; };
+		CF3099111DE3AF6D00A416E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF30990F1DE3AF6D00A416E7 /* LaunchScreen.storyboard */; };
+		CF30991C1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30991B1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift */; };
+		CF3099271DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3099261DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3099181DE3AF6D00A416E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3098F91DE3AF6C00A416E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3099001DE3AF6C00A416E7;
+			remoteInfo = PetFinderPreview;
+		};
+		CF3099231DE3AF6D00A416E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3098F91DE3AF6C00A416E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3099001DE3AF6C00A416E7;
+			remoteInfo = PetFinderPreview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3099011DE3AF6C00A416E7 /* PetFinderPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3099041DE3AF6C00A416E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3099061DE3AF6C00A416E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CF3099081DE3AF6C00A416E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CF30990B1DE3AF6C00A416E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF30990D1DE3AF6D00A416E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3099101DE3AF6D00A416E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3099121DE3AF6D00A416E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3099171DE3AF6D00A416E7 /* PetFinderPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFinderPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF30991B1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderPreviewTests.swift; sourceTree = "<group>"; };
+		CF30991D1DE3AF6D00A416E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3099221DE3AF6D00A416E7 /* PetFinderPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFinderPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3099261DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderPreviewUITests.swift; sourceTree = "<group>"; };
+		CF3099281DE3AF6D00A416E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3098FE1DE3AF6C00A416E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3099141DE3AF6D00A416E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF30991F1DE3AF6D00A416E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3098F81DE3AF6C00A416E7 = {
+			isa = PBXGroup;
+			children = (
+				CF3099031DE3AF6C00A416E7 /* PetFinderPreview */,
+				CF30991A1DE3AF6D00A416E7 /* PetFinderPreviewTests */,
+				CF3099251DE3AF6D00A416E7 /* PetFinderPreviewUITests */,
+				CF3099021DE3AF6C00A416E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3099021DE3AF6C00A416E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3099011DE3AF6C00A416E7 /* PetFinderPreview.app */,
+				CF3099171DE3AF6D00A416E7 /* PetFinderPreviewTests.xctest */,
+				CF3099221DE3AF6D00A416E7 /* PetFinderPreviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3099031DE3AF6C00A416E7 /* PetFinderPreview */ = {
+			isa = PBXGroup;
+			children = (
+				CF3099041DE3AF6C00A416E7 /* AppDelegate.swift */,
+				CF3099061DE3AF6C00A416E7 /* FirstViewController.swift */,
+				CF3099081DE3AF6C00A416E7 /* SecondViewController.swift */,
+				CF30990A1DE3AF6C00A416E7 /* Main.storyboard */,
+				CF30990D1DE3AF6D00A416E7 /* Assets.xcassets */,
+				CF30990F1DE3AF6D00A416E7 /* LaunchScreen.storyboard */,
+				CF3099121DE3AF6D00A416E7 /* Info.plist */,
+			);
+			path = PetFinderPreview;
+			sourceTree = "<group>";
+		};
+		CF30991A1DE3AF6D00A416E7 /* PetFinderPreviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF30991B1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift */,
+				CF30991D1DE3AF6D00A416E7 /* Info.plist */,
+			);
+			path = PetFinderPreviewTests;
+			sourceTree = "<group>";
+		};
+		CF3099251DE3AF6D00A416E7 /* PetFinderPreviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3099261DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift */,
+				CF3099281DE3AF6D00A416E7 /* Info.plist */,
+			);
+			path = PetFinderPreviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3099001DE3AF6C00A416E7 /* PetFinderPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF30992B1DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreview" */;
+			buildPhases = (
+				CF3098FD1DE3AF6C00A416E7 /* Sources */,
+				CF3098FE1DE3AF6C00A416E7 /* Frameworks */,
+				CF3098FF1DE3AF6C00A416E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetFinderPreview;
+			productName = PetFinderPreview;
+			productReference = CF3099011DE3AF6C00A416E7 /* PetFinderPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3099161DE3AF6D00A416E7 /* PetFinderPreviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF30992E1DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreviewTests" */;
+			buildPhases = (
+				CF3099131DE3AF6D00A416E7 /* Sources */,
+				CF3099141DE3AF6D00A416E7 /* Frameworks */,
+				CF3099151DE3AF6D00A416E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3099191DE3AF6D00A416E7 /* PBXTargetDependency */,
+			);
+			name = PetFinderPreviewTests;
+			productName = PetFinderPreviewTests;
+			productReference = CF3099171DE3AF6D00A416E7 /* PetFinderPreviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3099211DE3AF6D00A416E7 /* PetFinderPreviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3099311DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreviewUITests" */;
+			buildPhases = (
+				CF30991E1DE3AF6D00A416E7 /* Sources */,
+				CF30991F1DE3AF6D00A416E7 /* Frameworks */,
+				CF3099201DE3AF6D00A416E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3099241DE3AF6D00A416E7 /* PBXTargetDependency */,
+			);
+			name = PetFinderPreviewUITests;
+			productName = PetFinderPreviewUITests;
+			productReference = CF3099221DE3AF6D00A416E7 /* PetFinderPreviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3098F91DE3AF6C00A416E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = obycode;
+				TargetAttributes = {
+					CF3099001DE3AF6C00A416E7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8X2M2ZU7M;
+						ProvisioningStyle = Automatic;
+					};
+					CF3099161DE3AF6D00A416E7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8X2M2ZU7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF3099001DE3AF6C00A416E7;
+					};
+					CF3099211DE3AF6D00A416E7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8X2M2ZU7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF3099001DE3AF6C00A416E7;
+					};
+				};
+			};
+			buildConfigurationList = CF3098FC1DE3AF6C00A416E7 /* Build configuration list for PBXProject "PetFinderPreview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3098F81DE3AF6C00A416E7;
+			productRefGroup = CF3099021DE3AF6C00A416E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3099001DE3AF6C00A416E7 /* PetFinderPreview */,
+				CF3099161DE3AF6D00A416E7 /* PetFinderPreviewTests */,
+				CF3099211DE3AF6D00A416E7 /* PetFinderPreviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3098FF1DE3AF6C00A416E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3099111DE3AF6D00A416E7 /* LaunchScreen.storyboard in Resources */,
+				CF30990E1DE3AF6D00A416E7 /* Assets.xcassets in Resources */,
+				CF30990C1DE3AF6D00A416E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3099151DE3AF6D00A416E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3099201DE3AF6D00A416E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3098FD1DE3AF6C00A416E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3099091DE3AF6C00A416E7 /* SecondViewController.swift in Sources */,
+				CF3099051DE3AF6C00A416E7 /* AppDelegate.swift in Sources */,
+				CF3099071DE3AF6C00A416E7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3099131DE3AF6D00A416E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF30991C1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF30991E1DE3AF6D00A416E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3099271DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3099191DE3AF6D00A416E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3099001DE3AF6C00A416E7 /* PetFinderPreview */;
+			targetProxy = CF3099181DE3AF6D00A416E7 /* PBXContainerItemProxy */;
+		};
+		CF3099241DE3AF6D00A416E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3099001DE3AF6C00A416E7 /* PetFinderPreview */;
+			targetProxy = CF3099231DE3AF6D00A416E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF30990A1DE3AF6C00A416E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF30990B1DE3AF6C00A416E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF30990F1DE3AF6D00A416E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3099101DE3AF6D00A416E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3099291DE3AF6D00A416E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF30992A1DE3AF6D00A416E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF30992C1DE3AF6D00A416E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF30992D1DE3AF6D00A416E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF30992F1DE3AF6D00A416E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFinderPreview.app/PetFinderPreview";
+			};
+			name = Debug;
+		};
+		CF3099301DE3AF6D00A416E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFinderPreview.app/PetFinderPreview";
+			};
+			name = Release;
+		};
+		CF3099321DE3AF6D00A416E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PetFinderPreview;
+			};
+			name = Debug;
+		};
+		CF3099331DE3AF6D00A416E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S8X2M2ZU7M;
+				INFOPLIST_FILE = PetFinderPreviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obycode.PetFinderPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PetFinderPreview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3098FC1DE3AF6C00A416E7 /* Build configuration list for PBXProject "PetFinderPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3099291DE3AF6D00A416E7 /* Debug */,
+				CF30992A1DE3AF6D00A416E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF30992B1DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF30992C1DE3AF6D00A416E7 /* Debug */,
+				CF30992D1DE3AF6D00A416E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF30992E1DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF30992F1DE3AF6D00A416E7 /* Debug */,
+				CF3099301DE3AF6D00A416E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3099311DE3AF6D00A416E7 /* Build configuration list for PBXNativeTarget "PetFinderPreviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3099321DE3AF6D00A416E7 /* Debug */,
+				CF3099331DE3AF6D00A416E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3098F91DE3AF6C00A416E7 /* Project object */;
+}
