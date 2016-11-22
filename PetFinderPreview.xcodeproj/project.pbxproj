@@ -15,6 +15,8 @@
 		CF30991C1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30991B1DE3AF6D00A416E7 /* PetFinderPreviewTests.swift */; };
 		CF3099271DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3099261DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift */; };
 		CF3099351DE3D18300A416E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3099341DE3D18300A416E7 /* Assets.xcassets */; };
+		CF3099371DE3E1DB00A416E7 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF3099361DE3E1DB00A416E7 /* click.wav */; };
+		CF3099391DE3E1EC00A416E7 /* whistle.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF3099381DE3E1EC00A416E7 /* whistle.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CF3099261DE3AF6D00A416E7 /* PetFinderPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderPreviewUITests.swift; sourceTree = "<group>"; };
 		CF3099281DE3AF6D00A416E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3099341DE3D18300A416E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3099361DE3E1DB00A416E7 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		CF3099381DE3E1EC00A416E7 /* whistle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whistle.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				CF30990A1DE3AF6C00A416E7 /* Main.storyboard */,
 				CF30990F1DE3AF6D00A416E7 /* LaunchScreen.storyboard */,
 				CF3099121DE3AF6D00A416E7 /* Info.plist */,
+				CF3099361DE3E1DB00A416E7 /* click.wav */,
+				CF3099381DE3E1EC00A416E7 /* whistle.wav */,
 			);
 			path = PetFinderPreview;
 			sourceTree = "<group>";
@@ -238,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3099371DE3E1DB00A416E7 /* click.wav in Resources */,
 				CF3099111DE3AF6D00A416E7 /* LaunchScreen.storyboard in Resources */,
+				CF3099391DE3E1EC00A416E7 /* whistle.wav in Resources */,
 				CF3099351DE3D18300A416E7 /* Assets.xcassets in Resources */,
 				CF30990C1DE3AF6D00A416E7 /* Main.storyboard in Resources */,
 			);

@@ -12,7 +12,7 @@ import AVFoundation
 class SecondViewController: UIViewController {
     
     // make sure to add this sound to your project
-    var audioPlayer = AVAudioPlayer()
+    var player: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +25,17 @@ class SecondViewController: UIViewController {
     }
 
     @IBAction func clickTapped(_ sender: Any) {
-        let clickSound = Bundle.main.path(forResource: "click", ofType: "wav")
-            
-        var audioFileUrl = NSURL.fileURL(withPath: clickSound!)
+        let click = Bundle.main.url(forResource: "click", withExtension: "wav")!
+
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: clickSound! ))
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
-            try AVAudioSession.sharedInstance().setActive(true)
-        } catch {
-            print(error)
+            player = try AVAudioPlayer(contentsOf: click)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
         }
-        audioPlayer.play()
         print("got in here")
     }
 
